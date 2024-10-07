@@ -1,0 +1,18 @@
+{
+    "server": false,
+    "data_dir": "/tmp",
+    "retry_join": [
+        "consulserver01",
+        "consulserver02",
+        "consulserver03"
+    ],
+    "encrypt": "3oGCSkq2ypJqGp+yrrkMpoctIhZ3KWq9iGMbxmA1jX8=",
+    "service": {
+        "id": "nginx",
+        "name": "nginx",
+        "tags": [
+            "web"
+        ],
+        "port": 80
+    }
+}
